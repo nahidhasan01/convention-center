@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.carousel-style{
+    height: 100vh;
+}
+.carousel-caption h3{
+    font-size: 30px;
+}
+.carousel-caption p{
+    font-size: 12px;
+}
+.toast-align{
+    top: 40px;
+    right: -150px;
+}
+.hot-width{
+    width: 65px;
+    top: -30px;
+    right: 2px;
+}
+.price-list:hover{
+    position: relative;
+    bottom: 50px;
+}
+@media screen and (max-width:576px) {
+    .img-height{
+        height: 500px;
+        object-fit: cover;
+    }
+    .price-list:hover{
+        position: relative;
+        bottom: 0px;
+    }
+    .toast-align{
+        right: 0;
+    }
+    
+}
